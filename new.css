@@ -1,0 +1,437 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.container h2{
+    margin-top: 30px;
+    margin-left: -55px;
+    color: #ff2400;
+    font-size: 22px;
+    font-family: arial;
+    position: relative;
+}
+.display{
+    display: flex;
+}
+ul{
+    margin-left: 620px;
+    display: flex;
+    margin-top: 15px;
+
+    position: absolute;
+}
+li{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    padding-right: 5px;
+}
+.menu button{
+    margin-left: 70px;
+    margin-top: -20px;
+    position: absolute;
+    width: 80px;
+    background:#ff2400;
+    border-radius: 5px;
+    
+}
+.a1{
+    text-decoration: none;
+    font-size: 17x;
+    color: white;
+    padding: 5px;
+}
+.webtext{
+    margin-top: 110px;
+    margin-left: 15px;
+}
+.greet{
+    font-size: 18px;
+}
+.iam{
+    font-size: 20px;
+    font-family: arial;
+}
+.name{
+    font-size: 40px;
+    font-weight: 100;
+    color: #ff2400;
+}
+.salute{
+    font-size: 19px;
+}
+.display2{
+    display: flex;
+  
+}
+/*.container{
+    width: 1100px;
+    height: 550px;
+    border: 2px solid;
+    border-color: rgb(190, 188, 188);
+    background-color: white;
+    margin-top: -690px;
+    margin-left: 90px;
+    position: absolute;
+    box-shadow: 2px;
+    border-radius: 15px;
+}*/
+.container h2{
+    margin-top: 15px;
+    margin-left: 15px;
+    color: #ff2400;
+    font-size: 22px;
+    font-family: arial;
+    position: absolute;
+    text-decoration: underline;
+}
+.display{
+    display: flex;
+}
+ul{
+    margin-left: 700px;
+
+    display: flex;
+    margin-top: 15px;
+    position: absolute;
+}
+li{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    padding-right: 5px;
+}
+a:hover{
+    color: #ff2400;
+}
+.menu button{
+    margin-left: 870px;
+    margin-top: -20px;
+    position: absolute;
+    width: 80px;
+    background:#ff2400;
+    border-radius: 5px;
+    position: static;
+    visibility: hidden;
+    
+}*/
+
+.a1{
+    text-decoration: none;
+    font-size: 17x;
+    color: white;
+    padding: 5px;
+    display: none;
+}
+.webtext{
+    margin-top: 110px;
+    margin-left: 15px;
+}
+.greet{
+    font-size: 18px;
+}
+.iam{
+    font-size: 20px;
+    font-family: arial;
+}
+.name{
+    font-size: 40px;
+    font-weight: 100;
+    color: #ff2400;
+}
+.salute{
+    font-size: 19px;
+}
+.display2{
+    display: flex;
+  
+}
+.iam{
+    font-size: 20px;
+    font-family: arial;
+}
+.name{
+    font-size: 40px;
+    font-weight: 100;
+    color: #ff2400;
+}
+.salute{
+    font-size: 19px;
+}
+.display2{
+    display: flex;
+  
+}
+.imgback{
+    width: 400px;
+    height: 400px;
+    background: #ff2400;
+    clip-path: circle(50%);
+    position: fixed;
+
+    margin-top: -380px;
+    margin-left: 820px;
+    
+
+}
+img{
+    width: 260px;
+    height: 450px;
+    margin-left: 60px;
+    position: fixed;
+}
+
+.content img{
+    width: 340px;
+    height: 550px;
+    margin-top: 100px;
+    margin-left: 400px;
+    position: absolute;
+}
+
+.button{
+    background: #ff2400;
+    color: white;
+    border-radius: 3px;
+    
+
+}
+.search {
+
+margin-left: 250px;
+width: 300px;
+margin-top:-2px ;
+position: relative;
+
+
+}
+.search input{
+    width:200px;
+    height: 28px;
+    border-radius: 7px;
+    color: black;
+    font-size: 15px;
+    border-color: #ff2400;
+    box-shadow:  0 0 3px;
+    
+
+}
+.logo{
+    color: #ff2400;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    width: 750px;
+}
+
+
+
+
+
+
+/*media query*/
+@media(max-width:1600px){
+    .search{
+        margin-left: 80px;
+        position: fixed;
+    }
+    ul{
+        margin-left:600px ;
+        position: fixed;
+    }
+    .imgback{
+        margin-left: 770px;
+        margin-top: -400px;
+        position: fixed;
+    }
+    .name{
+        font-size: 50px;
+        font-weight: 100;
+       
+        width: 70px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:1200px){
+
+body{
+    width: 400px;
+}
+
+
+
+ul{
+    margin-left: 850px;
+    margin-top: 70px;
+    display: block;
+background: #ec2405;
+height: 350px;
+border-radius: 10px;
+box-shadow: 0 0 10px;
+
+z-index: 1;
+backdrop-filter: blur(6px);
+}
+a{
+    color: white;
+    font-size: 21px;
+    padding: 15px;
+    border-color: black;
+
+}
+.a1{
+    display: block;
+}
+
+.menu button{
+    visibility: visible;
+    margin-left: 880px;
+    margin-top: 17px;
+    position:relative;
+}
+.a1:hover{
+    color: black;
+}
+.menu button:active{
+    scale: 0.6;
+}
+.imgback{
+    margin-left: 860px;
+    margin-top: -520px;
+    width: 300px;
+    height: 300px;
+    position: fixed;
+}
+img{
+    margin-left: 13px;
+}
+.search{
+    position: relative;
+    margin-top: -39px;
+    margin-left: 300px;
+    position: fixed;
+    
+}
+.name{
+    font-size: px;
+}
+.salute{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+}
+
+
+
+
+
+@media (max-width:992px) {
+
+.imgback {
+    margin-left: 400px;
+    margin-top: -580px;
+    position: relative;
+    
+}
+img{
+    position: relative;
+}
+.menu button{
+    margin-left: 400px;
+}
+.webtext{
+    margin-top:80px;
+}
+ul{
+    margin-left: 370px;
+    visibility: hidden;
+}
+
+.menupop{
+    visibility: visible;
+}
+.search{
+    margin-left: 100px;
+}
+    
+}
+
+
+
+
+@media (max-width:768px) {
+body{
+    width:430px;
+
+
+}
+
+.imgback{
+    margin-left: 115px;
+    margin-top: -805px;
+    
+    position: sticky;
+}
+.menu button{
+    margin-left:260px;
+}
+    .search{
+        margin-left: 7px;
+        margin-top: -50px;
+    }
+    ul{
+        margin-left: 200px;
+    }
+    .webtext{
+        margin-top: 240px;
+
+    }
+}
+
+
+
+@media (max-width:400px) {
+    .imgback{
+        margin-left: 100px;
+        
+    }
+    img{
+        position: relative;
+    }
+    .search{
+        margin-left: 20px;
+        margin-top:-40px;
+    }
+    .menu button{
+        margin-left: 267px;
+        margin-top: 1px;
+    }
+
+    .menupop{
+        visibility: visible;
+    }
+
+    ul{
+        margin-left: 200px;
+        
+    }
+    .webtext{
+        margin-top: 240px;
+    }
+    
+}

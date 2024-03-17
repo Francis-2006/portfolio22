@@ -1,0 +1,226 @@
+ *{
+    margin: 0;
+    padding:0;
+ }
+
+body{
+    background-color:white;
+}
+
+
+
+
+ .head{
+     margin-left: 550px;
+     margin-top: 50px;
+ }
+ .head b{
+    font-size: 20px;
+    color:#ff2400;
+    font-weight: 2em;
+ }
+ .head h2{
+    color:#ff2400;
+    font-size: 30px;
+
+ }
+ .webdev{
+    background: #ff2400;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 90px;
+    border-radius: 0 20px;
+
+ }
+ .webdev button{
+    background: #ff2400;
+    border-radius: 2px;
+    padding: 3px;
+    margin-top: 15px;
+    margin-left: 65px;
+
+ }
+ .a1{
+    color:white;
+    font-size: 13px;
+    text-decoration: none;
+ }
+ .webdev h2{
+    font-size: 40px;
+    margin-left: 80px;
+ }
+ .webdev b{
+    color: white;
+    font-size: 25px;
+ }
+ .webdev p{
+    font-family: arial;
+    font-size: 15px;
+    color: white;
+ }
+ /* web designing*/
+ 
+ .webdes{
+    background: #ff2400;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 90px;
+    border-radius: 0 20px;
+
+ }
+ .webdes button{
+    background:#ff2400;
+    border-radius: 2px;
+    padding: 3px;
+    margin-top: 15px;
+    margin-left: 65px;
+
+ }
+ .a2{
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+ }
+ .webdes h2{
+    font-size: 40px;
+    margin-left: 80px;
+ }
+ .webdes b{
+    color: white;
+    font-size: 25px;
+ }
+ .webdes  p{
+    font-family: arial;
+    font-size: 15px;
+    color: white;
+ }
+    /*app design*/
+    
+ .appdes{
+    background: #ff2400;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 90px;
+    border-radius: 0 20px;
+
+ }
+ .appdes button{
+    background: #ff2400;
+    border-radius: 2px;
+    padding: 3px;
+    margin-top: 15px;
+    margin-left: 65px;
+
+ }
+ .a3{
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+ }
+ .appdes h2{
+    font-size: 40px;
+    margin-left: 80px;
+ }
+ .appdes b{
+    color: white;
+    font-size: 25px;
+ }
+ .appdes  p{
+    font-family: arial;
+    font-size: 15px;
+    color: white;
+ }
+ 
+ .display{
+    gap: 115px;
+    display: flex;
+}
+
+
+
+.menu {
+   margin-left: 490px;
+   
+   background: #ff2400;
+   text-align: center;
+   height: 50px;
+   padding: 10px;
+   color: white;
+   display: inline-block;
+}
+
+
+a,
+ul,
+li {
+    padding-left: 10px;
+    display: flex;
+    color:white;
+    word-spacing: 10px;
+
+}
+@media screen and (max-width:1830px) {
+   
+ .display{
+   gap: 70px;
+   display: flex;
+}
+
+   
+
+
+.menu {
+   margin-left: 290px;
+   
+   background: #ff2400;
+   text-align: center;
+   height: 50px;
+   padding: 10px;
+   color: white;
+   display: inline-block;
+}
+
+}
+@media screen and (max-width:930px){
+      .display{
+         gap: 40px;
+      }
+}
+@media screen and (max-width:800px){
+   
+
+
+ .head{
+   margin-left: 120px;
+   margin-top: 50px;
+}
+.head b{
+  font-size: 20px;
+  color:#ff2400;
+  font-weight: 2em;
+}
+.head h2{
+  color:#ff2400;
+  font-size: 30px;
+
+}
+
+
+.menu {
+   margin-left: -10px;
+   
+   background: #ff2400;
+   text-align: center;
+   height: 50px;
+   padding: 10px;
+   color: white;
+   display: inline-block;
+}
+.display{
+   gap: 0px;
+   display: block;
+}
+}
